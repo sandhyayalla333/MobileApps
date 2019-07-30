@@ -25,7 +25,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBJNgfjpeFIAv9AFK46ssqdAyz7xbjVQyg" />
+            android:value="" />
 
         <activity android:name=".AddNewTripActivity" />
 
