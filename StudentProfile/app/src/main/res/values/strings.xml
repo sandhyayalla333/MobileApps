@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">StudentProfile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dept">Department:</string>
+    <string name="myAvatar">My Avatar</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="id">Student ID</string>
+    <string name="rb1">CS</string>
+    <string name="rb2">SIS</string>
+    <string name="rb3">BIO</string>
+    <string name="rb4">Other</string>
+    <string name="save">Save</string>
+    <string name="tvdName">Name:</string>
+    <string name="tv_stId">Student ID:</string>
+    <string name="deptValue">Department:</string>
+    <string name="editBtn">Edit</string>
+</resources>

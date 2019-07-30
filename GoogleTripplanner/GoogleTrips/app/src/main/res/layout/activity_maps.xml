@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/place_autocomplete_fragment"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="51dp" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="153dp"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/btn_Restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="107dp"
+        android:text="@string/Restaurant" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignEnd="@+id/et_tripname"
+        android:layout_alignTop="@+id/btn_Restaurant"
+        android:text="@string/Closemap" />
+
+    <Button
+        android:id="@+id/btn_savetrip"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/btn_Restaurant"
+        android:layout_centerHorizontal="true"
+        android:text="@string/savetrip" />
+
+    <TextView
+        android:id="@+id/tv_tripname"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_Restaurant"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        android:text="@string/entertrip" />
+
+    <EditText
+        android:id="@+id/et_tripname"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignStart="@+id/btn_savetrip"
+        android:layout_alignTop="@+id/tv_tripname"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
+
+

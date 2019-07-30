@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DisplayImage</string>
+    <string name="strthread">Load Using Thread</string>
+    <string name="strngAsync">Load Using AsyncTask</string>
+</resources>

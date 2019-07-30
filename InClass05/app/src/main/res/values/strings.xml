@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BuzzFeedHeadlines</string>
+    <string name="publishedat">Published At :</string>
+    <string name="Description">Description</string>
+    <string name="errortext">No internet connection and HTTPrequest cannot be made</string>
+    <string name="Quit">Quit</string>
+    <string name="firstitem">"You are on first item</string>
+    <string name="lastitem">"You are on last item</string>
+
+</resources>

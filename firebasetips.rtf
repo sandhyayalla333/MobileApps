@@ -1,0 +1,75 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red87\green96\blue105;\red11\green96\blue192;\red255\green255\blue255;
+\red27\green29\blue31;\red13\green0\blue129;\red235\green236\blue237;\red36\green38\blue41;\red37\green127\blue159;
+\red104\green26\blue29;\red114\green121\blue129;}
+{\*\expandedcolortbl;;\cssrgb\c41569\c45098\c48627;\cssrgb\c0\c46667\c80000;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c14118\c15294\c16078;\cssrgb\c6275\c6275\c58039;\cssrgb\c93725\c94118\c94510;\cssrgb\c18824\c20000\c21176;\cssrgb\c16863\c56863\c68627;
+\cssrgb\c49020\c15294\c15294;\cssrgb\c52157\c54902\c57647;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\fs40 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qc\partightenfactor0
+
+\fs2 \cf3 \cb4 down vote\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs30 \cf5 \cb4 Please add\cb1 \
+\cb4 compile 'com.google.firebase:firebase-messaging:11.0.1\
+\
+\
+http://canvas.uncc.edu\
+\
+https://console.firebase.google.com/u/0/project/fir-example-7d769/database/fir-example-7d769/data\
+\
+\
+\
+To retrieve user\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf6 \cb7 public\cf8  \cf6 void\cf8  getEvents(\cf6 final\cf8  \cf9 LoadEventsCallback\cf8  callback) \{\
+\
+    \cf6 final\cf8  \cf9 List\cf8 <\cf9 Event\cf8 > events = \cf6 new\cf8  \cf9 ArrayList\cf8 <\cf9 Event\cf8 >();\
+\
+    \cf9 Firebase\cf8  ref = \cf6 new\cf8  \cf9 Firebase\cf8 (\cf10 "https://austin-feeds-me.firebaseio.com/events"\cf8 );\
+    ref.addListenerForSingleValueEvent(\cf6 new\cf8  \cf9 ValueEventListener\cf8 () \{\
+        \cf10 @Override\cf8 \
+        \cf6 public\cf8  \cf6 void\cf8  onDataChange(\cf9 DataSnapshot\cf8  dataSnapshot) \{\
+            \cf6 for\cf8  (\cf9 DataSnapshot\cf8  snapshot : dataSnapshot.getChildren()) \{\
+                \cf9 Event\cf8  event = snapshot.getValue(\cf9 Event\cf8 .\cf6 class\cf8 );\
+                events.add(event);\
+            \}\
+            callback.onEventsLoaded(events);\
+        \}\
+\
+        \cf10 @Override\cf8 \
+        \cf6 public\cf8  \cf6 void\cf8  onCancelled(\cf9 FirebaseError\cf8  firebaseError) \{\
+\
+        \}\
+    \});\
+\
+\}\
+\
+\cf6 final\cf8  \cf9 Firebase\cf8  firebaseRef = \cf6 new\cf8  \cf9 Firebase\cf8 (<\cf9 Your_Firebase_URL\cf8 >/\cf9 Users\cf8 ).child(username);\
+\
+\
+firebaseRef.addListenerForSingleValueEvent(\cf6 new\cf8  \cf9 ValueEventListener\cf8 ) \{\
+\cf10 @Override\cf8 \
+\cf6 public\cf8  \cf6 void\cf8  onDataChange(\cf9 DataSnapshot\cf8  dataSnapshot) \{\
+    \cf6 if\cf8  (dataSnapshot.exists()) \{\
+        \cf11 \cb7 // User Exists\cf8 \cb7 \
+    \}\
+\}\
+\
+\cf10 @Override\cf8 \
+\cf6 public\cf8  \cf6 void\cf8  onCancelled(\cf9 FirebaseError\cf8  firebaseError) \{\
+\
+\}\
+\});\
+\
+\
+https://stackoverflow.com/questions/37561497/how-to-add-new-data-in-firebase-android}

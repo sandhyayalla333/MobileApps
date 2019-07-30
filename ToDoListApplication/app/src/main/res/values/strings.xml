@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDoListApplication</string>
+    <string name="Add">Add</string>
+    <string-array name="genre_array">
+        <item>Priority</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string name="all">Show All</string>
+    <string name="completed">Show Completed</string>
+    <string name="pending">Show Pending</string>
+</resources>

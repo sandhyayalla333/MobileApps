@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PhotoGallery</string>
+    <string name="buttongo">Go</string>
+    <string name="keyword">Search Keyword</string>
+    <string name="dictionary">Loading Dictionary...</string>
+    <string name="photo">Loading Photo...</string>
+    <string name="interneterror">there is no internet connection and do not attempt to send the HTTP request</string>
+    <string name="imageerror">No images found</string>
+</resources>

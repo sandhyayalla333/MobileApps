@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "934623318274",
+    "firebase_url": "https://trips-75048.firebaseio.com",
+    "project_id": "trips-75048",
+    "storage_bucket": "trips-75048.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934623318274:android:a20d04ac719fa724",
+        "android_client_info": {
+          "package_name": "com.example.sandhyayalla.googletrips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934623318274-h0b4o02vh1cvd744t5km8nrhnin114tv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sandhyayalla.googletrips",
+            "certificate_hash": "32656e86dd70f982c0e96d4c4a6a6c28436ba2df"
+          }
+        },
+        {
+          "client_id": "934623318274-ul9clovm2jo9t0hg81vojkp2ujgo6ucu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7kGaSyhE82ZxNMTDQg7krXpTrEf-V9m0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934623318274-ul9clovm2jo9t0hg81vojkp2ujgo6ucu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

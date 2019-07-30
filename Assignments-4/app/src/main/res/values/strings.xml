@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MovieDatabase</string>
+    <string name="addMovie">Add Movie</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete Movie</string>
+    <string name="yearList">Show List by Year</string>
+    <string name="ratingList">Show List by Rating</string>
+    <string name="nameHint">Name</string>
+    <string name="desc">Description:</string>
+    <string name="genre">Genre:</string>
+    <string name="rating">Rating:</string>
+    <string name="hintImdb">IMDB</string>
+    <string name="hintYear">Year</string>
+    <string name="add">Add Movie</string>
+    <string name="MoviebyYear">Movies by Year</string>
+    <string name="MoviebyRating">Movies by Rating</string>
+    <string name="movietitle">Title:</string>
+    <string name="string">Year:</string>
+    <string name="Finish">Finish</string>
+    <string name="select">Select</string>
+    <string name="defaultSeekVal">0</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="descHint">Enter description</string>
+    <string name="imbdString">IMDB:</string>
+    <string-array name="genre_array">
+        <item>Select</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>

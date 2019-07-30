@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GoogleTrips</string>
+    <string name="login">Login</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="Adddestination">Add Destination</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="Closemap">Exit Map</string>
+    <string name="SaveTrip" />
+    <string name="savetrip">Save Trip</string>
+    <string name="entertrip">Enter TripName</string>
+    <string name="title_activity_display_maps">Map</string>
+    <string name="Dest">Destination</string>
+    <string name="triptitle">Welcome to TripPlanner</string>
+</resources>

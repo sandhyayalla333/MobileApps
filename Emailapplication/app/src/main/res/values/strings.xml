@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Emailapplication</string>
+    <string name="firstname">First Name</string>
+    <string name="btnsignup">Sign Up</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="repassword">Repeat Password</string>
+    <string name="pwd">Choose Password</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintEmail">Email</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonSignUp">Sign Up</string>
+    <string name="addthread">Add New Thread</string>
+    <string name="delete">delete</string>
+    <string name="heading">Current Threads</string>
+    <string name="btnsend">Send</string>
+    <string name="send">Send</string>
+    <string name="sendername">Sender Name</string>
+</resources>

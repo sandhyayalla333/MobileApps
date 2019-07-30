@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InClass10</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapKey">AIzaSyCIpRhAdRo1sKNcezFrSw9BZpw-v89s7nQ</string>
+</resources>

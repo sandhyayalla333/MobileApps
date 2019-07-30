@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">passwordtask</string>
+    <string name="pwdcount">Select Passwords Count</string>
+    <string name="pwdlength">Select Passwords Length</string>
+</resources>
